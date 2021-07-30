@@ -32,3 +32,5 @@ select location, population, date, max(total_cases) as HighestInfecioncount, MAx
 from PortfolioProject..[Death by Covid]
 group by location,population, date
 order by PercentPopulaionInfected desc
+-----Since Tableau Public does not support SQL Data Source thus have to convert the output of above queries in excel for Visualization. Below is the link of Tableau Dashboard
+https://public.tableau.com/views/CovidDashboard_16272766921620/Dashboard1?:language=en-GB&:display_count=n&:origin=viz_share_link
